@@ -36,7 +36,7 @@
 		".hg",
 		"CVS"
 	],
-	"font_size": 12,
+	"font_size": 8,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
