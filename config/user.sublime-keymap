@@ -468,6 +468,26 @@
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
 		}
 	},
+	{   // valenting: focus on left panel
+		"keys": ["alt+["],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.8, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{   // valenting: focus on right panel
+		"keys": ["alt+]"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.2, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
 	{
 		"keys": ["alt+shift+3"],
 		"command": "set_layout",
