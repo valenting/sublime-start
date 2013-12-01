@@ -11,10 +11,11 @@ sudo rm -rf /opt/sublime2
 sudo mv Sublime\ Text\ 2 /opt/sublime2
 sudo chmod -R 777 /opt/sublime2
 
-rm -f /usr/local/bin/subl
-ln -s /opt/sublime2/sublime_text /usr/local/bin/subl
+sudo rm -f /usr/local/bin/subl
+sudo ln -s /opt/sublime2/sublime_text /usr/local/bin/subl
 
 mkdir -p ~/.config/sublime-text-2/Packages/User/
 cp config/Preferences.sublime-settings ~/.config/sublime-text-2/Packages/User/
 cp config/user.sublime-keymap ~/.config/sublime-text-2/Packages/User/Default\ \(Linux\).sublime-keymap
 
+cp config/sublime.desktop ~/.local/share/applications

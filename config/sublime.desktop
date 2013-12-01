@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Sublime Text
+Comment=A sample application
+Exec=/opt/sublime2/sublime_text
+Icon=/opt/sublime2/Icon/48x48/sublime_text.png
+Terminal=false
